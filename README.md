@@ -45,6 +45,15 @@ Learn how to do that with Beamable's online product documentation.
 The purpose of this feature is to allow players to communicate in-game.
 <br>[Beamable Chat](https://docs.beamable.com/docs/chat-feature)
 
+### What is Beamable's "MicroService" Feature?
+This allows game makers to create and deploy server-authoritative C#
+<br>[Beamable MicroServices](https://docs.beamable.com/docs/microservices-feature)
+
+### What is Beamable's "MicroStorage" Feature?
+This provides native Mongo Database integrated with C#Microservices.
+<br>[Beamable MicroStorage](https://docs.beamable.com/docs/beamable-microstorage)
+
+
 ### Got feedback?
 Let us know what you think or ask any questions you might have.
 <br>[Contact Us](https://docs.beamable.com/discuss)
