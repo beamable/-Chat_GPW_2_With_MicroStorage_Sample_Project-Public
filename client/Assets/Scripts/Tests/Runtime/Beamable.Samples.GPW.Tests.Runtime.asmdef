@@ -1,0 +1,31 @@
+{
+    "name": "Beamable.Samples.GPW.Tests.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Beamable",
+        "Beamable.Platform",
+        "Beamable.Coroutines",
+        "Beamable.Service",
+        "Beamable.JsonSerializable",
+        "Unity.Addressables",
+        "Unity.Beamable.Runtime.Common",
+        "Beamable.SmallerJSON",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.Beamable.Tests",
+        "Beamable.Samples.GPW.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
