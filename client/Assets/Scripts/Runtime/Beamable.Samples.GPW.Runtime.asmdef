@@ -15,7 +15,8 @@
         "Unity.Beamable.Server.Runtime",
         "Unity.Beamable.Server.Runtime.Shared",
         "Beamable.Samples.GPW.Shared",
-        "Beamable.Samples.GPW.Client"
+        "Beamable.Samples.GPW.Client",
+        "Unity.Beamable.Customer.Common"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

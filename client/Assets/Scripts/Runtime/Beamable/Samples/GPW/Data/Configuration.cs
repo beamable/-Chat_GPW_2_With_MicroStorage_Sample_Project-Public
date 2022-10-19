@@ -5,6 +5,8 @@ using Beamable.Samples.GPW.Data.Content;
 using Beamable.Samples.GPW.Data.Factories;
 using UnityEngine;
 
+using static Beamable.Common.Constants.MenuItems.Windows;
+
 namespace Beamable.Samples.GPW.Data
 {
    /// <summary>
@@ -13,9 +15,9 @@ namespace Beamable.Samples.GPW.Data
    /// </summary>
    [CreateAssetMenu(
       fileName = Title,
-      menuName = BeamableConstants.MENU_ITEM_PATH_ASSETS_BEAMABLE_SAMPLES + "/" +
+      menuName = Paths.MENU_ITEM_PATH_WINDOW_BEAMABLE_SAMPLES + "/" +
       "Multiplayer/Create New " + Title,
-      order = BeamableConstants.MENU_ITEM_PATH_ASSETS_BEAMABLE_ORDER_1)]
+      order = Orders.MENU_ITEM_PATH_WINDOW_PRIORITY_1)]
    public class Configuration : BaseConfiguration
    {
       //  Constants  -----------------------------------

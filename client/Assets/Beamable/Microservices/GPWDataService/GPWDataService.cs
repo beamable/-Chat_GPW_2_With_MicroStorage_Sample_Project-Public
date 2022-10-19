@@ -7,6 +7,7 @@ using Beamable.Samples.GPW.Data.Factories;
 using MongoDB.Driver;
 using UnityEngine;
 
+
 namespace Beamable.Server
 {
     [Microservice("GPWDataService")]
@@ -53,7 +54,7 @@ namespace Beamable.Server
         
             try
             {
-                var mongoDatabase = Storage.GetDatabase<GPWDataStorage>();
+                var mongoDatabase = await Storage.GetDatabase<GPWDataStorage>();
                 var mongoCollection = mongoDatabase.GetCollection<LocationContentViewsWrapper>(CollectionName);
                 var result = await mongoCollection.FindAsync(_ => true);
                 var locationContentViewsWrappers = result.ToList();
@@ -129,7 +130,7 @@ namespace Beamable.Server
             bool isSuccess = false;
             try
             {
-                var db = Storage.GetDatabase<GPWDataStorage>();
+                var db = await Storage.GetDatabase<GPWDataStorage>();
                 
                 //The wrapper helps the DB
                 var collection = db.GetCollection<LocationContentViewsWrapper>(CollectionName);
