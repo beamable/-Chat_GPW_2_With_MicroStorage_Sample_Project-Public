@@ -1,5 +1,9 @@
-﻿using Beamable.Samples.SampleProjectBase;
+﻿using Beamable.Common;
+using Beamable.Samples.Core;
+using Beamable.Samples.SampleProjectBase;
 using UnityEditor;
+
+using static Beamable.Common.Constants.MenuItems.Windows;
 
 namespace Beamable.Samples.GPW
 {
@@ -35,9 +39,9 @@ namespace Beamable.Samples.GPW
 		}
 
 		[MenuItem(
-			BeamableConstants.MENU_ITEM_PATH_WINDOW_BEAMABLE_SAMPLES + ReadmeSubfolder +
-			BeamableConstants.OPEN + " " + ReadmeName,
-			priority = BeamableConstants.MENU_ITEM_PATH_WINDOW_PRIORITY_4)]
+			Paths.MENU_ITEM_PATH_WINDOW_BEAMABLE_SAMPLES + ReadmeSubfolder +
+			Constants.Commons.OPEN + " " + ReadmeName,
+			priority = Orders.MENU_ITEM_PATH_WINDOW_PRIORITY_4)]
 		private static Readme SelectSpecificReadmeMenuItem()
 		{
 			// Reset SessionState if/when MenuItem is used
